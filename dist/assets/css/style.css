@@ -544,6 +544,10 @@ svg {
 .slide .slide__content--headings {
     text-align: center;
     color: #FFF;
+    background: linear-gradient(to right, hsl(98deg, 100%, 62%), hsl(204deg, 100%, 59%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
 }
 
 .slide .slide__content--headings h2 {
