@@ -544,9 +544,6 @@ svg {
 .slide .slide__content--headings {
     text-align: center;
     color: #FFF;
-    background: linear-gradient(to right, hsl(98deg, 100%, 62%), hsl(204deg, 100%, 59%));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     text-align: center;
 }
 
@@ -769,6 +766,9 @@ svg {
     text-align: center;
     padding: 2.5rem 1rem 2rem 1rem;
     font-family: 800;
+    background: linear-gradient(to right, hsl(98deg, 100%, 62%), hsl(204deg, 100%, 59%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 @media (max-width: 1024px) {

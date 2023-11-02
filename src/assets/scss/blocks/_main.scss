@@ -54,11 +54,6 @@ $slick-opacity-not-active: 0.25;
         &--headings {
             text-align: center;
             color: #FFF;
-            background: linear-gradient(to right,
-                    hsl(98 100% 62%),
-                    hsl(204 100% 59%));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
             text-align: center;
 
             h2 {
@@ -244,6 +239,7 @@ $slick-opacity-not-active: 0.25;
 .page-title {
     background: rgb(0, 15, 26);
     margin-top: 1.5rem;
+    
 
     @include breakpoint($sm-bp) {
         margin-top: 0.5rem;
@@ -257,6 +253,11 @@ $slick-opacity-not-active: 0.25;
         text-align: center;
         padding: 2.5rem 1rem 2rem 1rem;
         font-family: 800;
+        background: linear-gradient(to right,
+                    hsl(98 100% 62%),
+                    hsl(204 100% 59%));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
 
         @include breakpoint($xl-bp) {
             font-size: 3.6rem;
