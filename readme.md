@@ -1,5 +1,5 @@
-https://studio-yarrr.github.io/website-ozon/dist/
+https://studio-yarrr.github.io/website-ozonSPB/dist/
 
-[Pages](https://studio-yarrr.github.io/ozon/dist/)
+[Pages](https://studio-yarrr.github.io/ozonSPB/dist/)
 
 
