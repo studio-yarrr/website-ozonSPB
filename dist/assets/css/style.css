@@ -922,7 +922,7 @@ svg {
     }
 }
 
-.panel p {
+.panel * {
     opacity: 0;
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
@@ -932,7 +932,7 @@ svg {
 }
 
 @media (max-width: 500px) {
-    .panel p {
+    .panel * {
         opacity: unset;
         -webkit-transform: unset;
         transform: unset;
@@ -940,7 +940,7 @@ svg {
     }
 }
 
-.panel p.active-text {
+.panel *.active-text {
     opacity: 1;
     -webkit-transform: translateX(0%);
     transform: translateX(0%);
